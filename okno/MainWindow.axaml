@@ -5,7 +5,13 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="okno.MainWindow"
         Title="okno">
-    <TextBlock Text="Warsztat"
-               HorizontalAlignment="Center"
-               VerticalAlignment="Center"/>
+    <Grid>
+        <TextBlock Text="Warsztat"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+        <Button Content="Wyjście"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Margin="10"/>
+    </Grid>
 </Window>
